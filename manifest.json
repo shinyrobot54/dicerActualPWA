@@ -1,5 +1,6 @@
 {
     "name": "Dicing",
+    "short_name": "Dice",
     "icons": [
         {
             "src": "./images/android-chrome-192x192.png",

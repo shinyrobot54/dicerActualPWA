@@ -5,26 +5,29 @@
     <title>One Die to Rule Them All</title>
     <link href="./public/css/style.css" rel="stylesheet">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./public/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="./public/images/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="./public/images/favicon-16x16.png" sizes="16x16">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="public/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="public/favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="./manifest.json">
-    <link rel="mask-icon" href="./public/images/safari-pinned-tab.svg" color="#57cef0">
-    <link rel="shortcut icon" href="/./public/images/favicon.ico">
+    <link rel="mask-icon" href="public/favicon/safari-pinned-tab.svg" color="#57cef0">
+    <link rel="shortcut icon" href="/public/favicon/favicon.ico">
     <meta name="msapplication-config" content="./public/images/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 <div class="row blue">
-    <div class="small-12 columns text-center">
+    <div class="small-12 large-12 columns text-center">
         <h2>
             The Elder Die
         </h2>
     </div>
 </div>
 <br>
-<div class="row">
-    <div class="small-6 columns">
+<br>
+<br>
+<br>
+<div class="row text-center">
+    <div class="small-4 large-4 columns drop">
         <label>What type of dice would you like to roll?
             <select>
                 <option value="d2">d2</option>
@@ -37,7 +40,10 @@
             </select>
         </label>
     </div>
-    <div class="small-6 columns">
+    <div class="small-2 large-2 columns image">
+        <img src="./public/images/diceIcon.png" id="diceIcon">
+    </div>
+    <div class="small-4 large-4 columns drop">
         <label>How many dice would you like to roll?
             <select>
                 <option value="1">One Die</option>
@@ -49,9 +55,18 @@
                 <option value="7">Seven Dice</option>
                 <option value="8">Eight Dice</option>
                 <option value="9">Nine Dice</option>
-                <option value="10">Ten Dice</option>
+           f     <option value="10">Ten Dice</option>
             </select>
         </label>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="row text-center">
+    <div class="small-12 large-12 column">
+        <a class="button expanded">Throw your life away</a>
     </div>
 </div>
 </body>
