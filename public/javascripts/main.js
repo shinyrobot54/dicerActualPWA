@@ -3,15 +3,9 @@
 "use strict";
 class main {
     constructor() {
-        // main.serviceWorker();
         serviceWorkers.loadServiceWorker();
     }
-    /*static serviceWorker() {
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/serviceWorker.js')
-                .then(() => { console.log('Service Worker Registered'); });
-        }
-    }*/
+
 }
 class serviceWorkers {
     static loadServiceWorker() {

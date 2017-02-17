@@ -1,13 +1,13 @@
 "use strict";
 
-let cacheName = '1.01';
+let cacheName = '1.00';
 let filesToCache = [
     './index.html',
-    './javascripts/main.js',
-    './css/style.css',
-    './css/foundation.min.css',
-    './favicons/android-chrome-512x512.png',
-    './favicons/android-chrome-192x192.png'
+    './public/javascripts/main.js',
+    './public/css/style.css',
+    './public/css/foundation.min.css',
+    './public/favicons/android-chrome-512x512.png',
+    './public/favicons/android-chrome-192x192.png'
 ];
 
 self.addEventListener('install', (e) => {
