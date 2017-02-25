@@ -1,0 +1,27 @@
+@import 'foundation.min.css';
+
+
+#header {
+  background: darkblue;
+  h2 {
+    font-size: 8vh;
+    color: white;
+  }
+}
+
+.drop {
+  margin-top: 1.5vh;
+}
+
+.image {
+  width: 20vh;
+  height: 20vh;
+  margin-left: 33%;
+}
+
+.rollButton {
+  height: 7vh;
+  background: #2ba6cb;
+  font-size: 4vh;
+
+}
